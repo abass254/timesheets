@@ -1,0 +1,272 @@
+/*------------------------------------------------------------------------------
+ * Custom CSS /Ubunifu .@daugmaud
+ *----------------------------------------------------------------------------*/
+ .truncate {
+    overflow : hidden !important;
+    text-overflow : ellipsis !important;
+    white-space : nowrap !important;
+  }
+
+  /* Input with icon */
+.form-control-position {
+    position : absolute;
+    top : 0px;
+    right : 0;
+    z-index : 2;
+    display : block;
+    width : 2.5rem;
+    height : 2.5rem;
+    line-height : 2.5rem;
+    text-align : center;
+  }
+  
+  /*---------------------------------
+  Input Icon
+  ---------------------------------*/
+  .position-relative .form-control {
+    padding-right : calc(1.25em + 1.4rem + 1px);
+  }
+  .position-relative .form-control.form-control-lg ~ .form-control-position {
+    top : 10px;
+  }
+  .position-relative .form-control.form-control-sm ~ .form-control-position {
+    top : -3px;
+  }
+  
+  /* Input Icon left */
+  .has-icon-left .form-control {
+    padding-right : 2rem;
+    padding-left : 2.5rem;
+  }
+  
+  .has-icon-left .form-control-position {
+    right : auto;
+    left : inherit;
+  }
+  .has-icon-left .form-control-position i {
+    position : relative;
+    left : 5px;
+    color : rgba(34, 41, 47, 0.4);
+  }
+  .form-label-group > label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    -webkit-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    padding: 0.6rem;
+    pointer-events: none;
+    cursor: text;
+    color: rgba(34, 41, 47, 0.4);
+    font-size: 0.85rem;
+    opacity: 0;
+}
+.form-label-group > input:not(:placeholder-shown) ~ label, .form-label-group textarea:not(:placeholder-shown) ~ label {
+    padding: 0.25rem 0;
+    font-size: 0.8rem;
+    top: -25px;
+    left: 3px;
+}
+.form-label-group > input:focus:not(:placeholder-shown) ~ label, .form-label-group > input:not(:active):not(:placeholder-shown) ~ label, .form-label-group textarea:focus:not(:placeholder-shown) ~ label, .form-label-group textarea:not(:active):not(:placeholder-shown) ~ label {
+    color: #3f6ad8 !important;
+    -webkit-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    opacity: 1;
+}
+.form-label-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+/*---------------------------------
+  Buttons
+---------------------------------*/
+.btn-facebook {
+  background-color : #3B5998;
+  color : #FFFFFF;
+  background-color : #3B5998;
+  border-color : #FFFFFF;
+}
+.btn-facebook:hover {
+  color : #FFFFFF;
+  background-color : #3B5998;
+  border-color : #3B5998;
+}
+.btn-facebook:focus, .btn-facebook.focus {
+  box-shadow : 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+}
+.btn-facebook.disabled, .btn-facebook:disabled {
+  color : #FFFFFF;
+  background-color : #3B5998;
+  border-color : #FFFFFF;
+}
+.btn-facebook:not(:disabled):not(.disabled):active, .btn-facebook:not(:disabled):not(.disabled).active, .show > .btn-facebook.dropdown-toggle {
+  color : #FFFFFF;
+  background-color : #2D4373;
+  border-color : #DFDFDF;
+}
+.btn-facebook:not(:disabled):not(.disabled):active:focus, .btn-facebook:not(:disabled):not(.disabled).active:focus, .show > .btn-facebook.dropdown-toggle:focus {
+  box-shadow : 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+}
+.btn-twitter {
+  background-color : #55ACEE;
+  color : #2A2E30;
+  background-color : #55ACEE;
+  border-color : #FFFFFF;
+}
+.btn-twitter:hover {
+  color : #2A2E30;
+  background-color : #55ACEE;
+  border-color : #55ACEE;
+}
+.btn-twitter:focus, .btn-twitter.focus {
+  box-shadow : 0 0 0 0.2rem rgba(223, 224, 224, 0.5);
+}
+.btn-twitter.disabled, .btn-twitter:disabled {
+  color : #2A2E30;
+  background-color : #55ACEE;
+  border-color : #FFFFFF;
+}
+.btn-twitter:not(:disabled):not(.disabled):active, .btn-twitter:not(:disabled):not(.disabled).active, .show > .btn-twitter.dropdown-toggle {
+  color : #FFFFFF;
+  background-color : #2795E9;
+  border-color : #DFDFDF;
+}
+.btn-twitter:not(:disabled):not(.disabled):active:focus, .btn-twitter:not(:disabled):not(.disabled).active:focus, .show > .btn-twitter.dropdown-toggle:focus {
+  box-shadow : 0 0 0 0.2rem rgba(223, 224, 224, 0.5);
+}
+.btn-github {
+  background-color : #444444;
+  color : #FFFFFF;
+  background-color : #444444;
+  border-color : #FFFFFF;
+}
+.btn-github:hover {
+  color : #FFFFFF;
+  background-color : #444444;
+  border-color : #444444;
+}
+.btn-github:focus, .btn-github.focus {
+  box-shadow : 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+}
+.btn-github.disabled, .btn-github:disabled {
+  color : #FFFFFF;
+  background-color : #444444;
+  border-color : #FFFFFF;
+}
+.btn-github:not(:disabled):not(.disabled):active, .btn-github:not(:disabled):not(.disabled).active, .show > .btn-github.dropdown-toggle {
+  color : #FFFFFF;
+  background-color : #2B2B2B;
+  border-color : #DFDFDF;
+}
+.btn-github:not(:disabled):not(.disabled):active:focus, .btn-github:not(:disabled):not(.disabled).active:focus, .show > .btn-github.dropdown-toggle:focus {
+  box-shadow : 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+}
+.btn-google {
+  background-color : #DD4B39;
+  color : #FFFFFF;
+  background-color : #DD4B39;
+  border-color : #FFFFFF;
+}
+.btn-google:hover {
+  color : #FFFFFF;
+  background-color : #DD4B39;
+  border-color : #DD4B39;
+}
+.btn-google:focus, .btn-google.focus {
+  box-shadow : 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+}
+.btn-google.disabled, .btn-google:disabled {
+  color : #FFFFFF;
+  background-color : #DD4B39;
+  border-color : #FFFFFF;
+}
+.btn-google:not(:disabled):not(.disabled):active, .btn-google:not(:disabled):not(.disabled).active, .show > .btn-google.dropdown-toggle {
+  color : #FFFFFF;
+  background-color : #C23321;
+  border-color : #DFDFDF;
+}
+.btn-google:not(:disabled):not(.disabled):active:focus, .btn-google:not(:disabled):not(.disabled).active:focus, .show > .btn-google.dropdown-toggle:focus {
+  box-shadow : 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+}
+
+/*---------------------------------
+  Dividers
+---------------------------------*/
+.divider {
+  display : block;
+  text-align : center;
+  overflow : hidden;
+  white-space : nowrap;
+  margin : 1rem 0;
+}
+.divider .divider-text {
+  position : relative;
+  display : inline-block;
+  font-size : 0.9375rem;
+  padding : 0 1rem;
+  background-color : #FFFFFF;
+}
+.divider .divider-text i {
+  font-size : 1rem;
+}
+.divider .divider-text:before, .divider .divider-text:after {
+  content : '';
+  position : absolute;
+  top : 50%;
+  width : 9999px;
+  border-top : 1px solid rgba(0, 0, 0, 0.1);
+}
+.divider .divider-text:before {
+  right : 100%;
+}
+.divider .divider-text:after {
+  left : 100%;
+}
+.divider.divider-left .divider-text {
+  float : left;
+  padding-left : 0;
+}
+.divider.divider-left .divider-text:before {
+  display : none;
+}
+.divider.divider-left-center .divider-text {
+  left : -25%;
+}
+.divider.divider-right .divider-text {
+  float : right;
+  padding-right : 0;
+}
+.divider.divider-right .divider-text:after {
+  display : none;
+}
+.divider.divider-right-center .divider-text {
+  right : -25%;
+}
+.divider.divider-dotted .divider-text:before, .divider.divider-dotted .divider-text:after {
+  border-style : dotted;
+  border-width : 1px;
+  border-top-width : 0;
+  border-color : black;
+}
+.divider.divider-dashed .divider-text:before, .divider.divider-dashed .divider-text:after {
+  border-style : dashed;
+  border-width : 1px;
+  border-top-width : 0;
+  border-color : black;
+}
+/*---------------------------------
+  Notifications
+---------------------------------*/
+small.notifications-meta {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+div.notifications-container-hub {
+  cursor: pointer;
+}
+.full-width {
+    width: 100%;
+}
