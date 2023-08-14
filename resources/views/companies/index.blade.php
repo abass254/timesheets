@@ -81,10 +81,10 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach ($companies as $td)
+                    @foreach ($companies as $key => $td)
                         <tr>
                             <td id="dist_id_{{ $td->cp_id }}" data-id="{{ $td->cp_id }}" class="pl-4"
-                                width="1">1</td>
+                                width="1">{{ $key + 1 }}</td>
                             <td class="text-primary font-weight-bold px-0">{{ strtoupper($td->cp_name) }}
                             </td>
                             <td>{{ $td->cp_address }}</td>

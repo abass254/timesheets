@@ -75,6 +75,20 @@
                     </ul>
                 </li>
                 <!--Next Controller-->
+                <li>
+                    <a href="/my-timesheets">
+                        <i class="metismenu-icon pe-7s-clock"></i>
+                        My Timesheets
+                    </a>
+                </li>
+                <li>
+                    <a href="/approve-timesheets">
+                        <i class="metismenu-icon pe-7s-stopwatch"></i>
+                        Approve Timesheerts
+                    </a>
+                </li>
+
+
             </ul>
         </div>
     </div>

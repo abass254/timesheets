@@ -69,7 +69,7 @@
                             <div class="divider mt-0"></div>
                             <form class="form-vendors" method="POST" action="{{ route('user.store') }}">
                                 <div class="form-row">
-                                    <div class="col-md-3">
+                                    <div class="col-md-4">
                                         <div class="position-relative form-group">
                                             <label for="exampleAddress2">First Name</label>
                                             <input class="form-control bg-white autocomplete" id="first-name"
@@ -77,7 +77,7 @@
                                                 type="text" value="" />
                                         </div>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-4">
                                         <div class="position-relative form-group">
                                             <label for="lpo-idnt">Last Name</label>
                                             <input class="form-control bg-white autocomplete" id="last-name"
@@ -86,7 +86,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-md-6">
+                                    <div class="col-md-4">
                                         <div class="position-relative form-group">
                                             <label for="lpo-idnt">Email Address</label>
                                             <input class="form-control bg-white autocomplete" id="vendor-website"
@@ -94,7 +94,7 @@
                                                 value="" />
                                         </div>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-4">
                                         <div class="position-relative form-group">
                                             <label for="lpo-idnt">EMP ID</label>
                                             <input class="form-control bg-white autocomplete" id="mep-id"
@@ -102,7 +102,7 @@
                                                 value="" />
                                         </div>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-4">
                                         <div class="position-relative form-group">
                                             <label for="lpo-idnt">Date Joined</label>
                                             <input type="text" name="date_joined"
@@ -114,7 +114,7 @@
                                     </div>
 
 
-                                    <div class="col-md-3">
+                                    <div class="col-md-4">
                                         <div class="position-relative form-group">
                                             <label for="lpo-idnt">Company</label>
                                             <select class="form-control" name="company" id="company">
@@ -125,7 +125,7 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-4">
                                         <div class="position-relative form-group">
                                             <label for="lpo-idnt">Department</label>
                                             <select class="form-control" name="department" id="department">
@@ -136,7 +136,7 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-4">
                                         <div class="position-relative form-group">
                                             <label for="lpo-idnt">Reports To</label>
                                             <select class="form-control" name="reports_to" id="reports-to">
@@ -150,7 +150,7 @@
 
                                         </div>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-4">
                                         <div class="position-relative form-group">
                                             <label for="lpo-idnt">Employment Type</label>
                                             <select class="form-control" name="department" id="department">
@@ -160,7 +160,7 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="col-md-2">
+                                    <div class="col-md-4">
                                         <div class="position-relative form-group">
                                             <label for="lpo-idnt">Ratings</label>
                                             <input class="form-control bg-white autocomplete" id="ratings"
@@ -168,7 +168,7 @@
                                                 value="" />
                                         </div>
                                     </div>
-                                    <div class="col-md-2">
+                                    <div class="col-md-4">
                                         <div class="position-relative form-group">
                                             <label for="lpo-idnt">Currency</label>
                                             <select class="form-control" name="currency" id="currency">
@@ -178,7 +178,7 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="col-md-2">
+                                    <div class="col-md-4">
                                         <div class="position-relative form-group">
                                             <label for="lpo-idnt">Ratings per</label>
                                             <select class="form-control" name="ratings" id="ratings_per">
@@ -188,7 +188,7 @@
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="col-md-8">
+                                    <div class="col-md-4">
                                         <div class="col-md-12 pl-0">
                                             <div class="custom-checkbox custom-control custom-control-inline">
                                                 <input class="form-check-input chk-custom-filter" type="checkbox"
@@ -214,8 +214,7 @@
                     <div class="divider"></div>
                     <div class="clearfix">
                         <button type="submit"
-                            class="btn-shadow btn-wide float-right btn-save-vendor btn-pill btn-hover-shine btn btn-primary">Save
-                            Vendor</button>
+                            class="btn-shadow btn-wide float-right btn-save-vendor btn-pill btn-hover-shine btn btn-primary">Save</button>
                         <button type="type" id="cancel-btn"
                             class="btn-shadow float-right btn-wide btn-pill mr-3 btn btn-outline-danger">Cancel</button>
                     </div>

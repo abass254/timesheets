@@ -51,7 +51,7 @@ $(document).ready(function(){
                 else if(result.code == 200) {
                     toastr.clear(toast);
                     toastr.success(result.message, 'Login Success', { closeButton: true, progressBar: true, timeOut: "30000" });
-                    window.location.href = `/dashboard`;
+                    window.location.href = `/home`;
                 }
             },
             error: function (xhr, ajaxOptions, thrownError) {

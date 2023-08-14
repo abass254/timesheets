@@ -141,7 +141,7 @@
                                 {{ Auth::user()->first_name . ' ' . Auth::user()->last_name }}
                             </div>
                             <div class="widget-subheading">
-                                'System User' }}
+                                System User
                             </div>
                         </div>
                     </div>
